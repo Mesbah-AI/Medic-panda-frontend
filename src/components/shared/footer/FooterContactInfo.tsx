@@ -19,7 +19,7 @@ const FooterContactInfo = () => (
       </Stack>
       <Stack direction="row" alignItems="center">
         <Email sx={{ mr: 1 }} />
-        <Typography color="text.primary">sujoykumardas75@gmail.com</Typography>
+        <Typography color="text.primary">misbah2280@gmail.com</Typography>
       </Stack>
     </Stack>
   </Box>

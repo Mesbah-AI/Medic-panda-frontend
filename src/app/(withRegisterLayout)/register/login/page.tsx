@@ -20,7 +20,7 @@ import Credential from "./Components/Credantial";
 
 const loginCredential = {
   user: { email: "sujoykumardas90@gmail.com", password: "MedicPanda@4321" },
-  admin: { email: "sujoykumardas75@gmail.com", password: "MedicPanda@4321" },
+  admin: { email: "misbah2280@gmail.com", password: "MedicPanda@4321" },
   supperAdmin: { email: "medicPanda@gmail.com", password: "MedicPanda@4321" },
   reset: { email: "", password: "" },
 };

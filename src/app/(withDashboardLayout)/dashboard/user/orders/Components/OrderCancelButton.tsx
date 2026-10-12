@@ -1,0 +1,42 @@
+import useCancelOrder from "@/hooks/useCancelOrder";
+import { OrderStatus } from "@/types";
+import { Chip, Stack, Typography } from "@mui/material";
+
+export default function OrderCancelButton({
+  status,
+  id,
+}: {
+  status: OrderStatus;
+  id: string;
+}) {
+  // custom hook for handle the cancel order logic;
+  const { handlerFunc, isLoading } = useCancelOrder();
+  return (
+    <Stack
+      direction={{ xs: "row", md: "column" }}
+      alignItems="center"
+      spacing={1}
+    >
+      <Typography variant="body2" fontWeight={600} textAlign="center">
+        Cancel Order
+      </Typography>
+      {status === OrderStatus.CANCELED ? (
+        <Chip
+          label={"Canceled"}
+          color="error"
+          variant="filled"
+          clickable={false}
+          disabled={true}
+        />
+      ) : (
+        <Chip
+          label={isLoading ? "Canceling" : "Cancel"}
+          color="secondary"
+          variant="outlined"
+          clickable={!isLoading}
+          onClick={() => handlerFunc(id)}
+        />
+      )}
+    </Stack>
+  );
+}

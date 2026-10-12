@@ -1,0 +1,23 @@
+import useToggleState from "@/hooks/useToggleState";
+import { Button } from "@mui/material";
+import AddManufacturerModal from "./AddManufacturerModal";
+
+export default function AddManufacturerButton() {
+  const addManufacturerModal = useToggleState();
+
+  return (
+    <>
+      <Button
+        onClick={addManufacturerModal.onOpen}
+        color={"primary"}
+        variant="contained"
+      >
+        Add Manufacturer
+      </Button>
+
+      {addManufacturerModal.state && (
+        <AddManufacturerModal onClose={addManufacturerModal.onClose} />
+      )}
+    </>
+  );
+}

@@ -7,7 +7,7 @@
 ## 🔗 Important Links
 
 - 🔴 **Live Demo:** [Visit the app](https://medic-panda.vercel.app/)
-- 🧩 **Backend Code:** [Click Here](https://github.com/Sujoy-Kumar-Das/medic-panda-backend)
+- 🧩 **Backend Code:** [Click Here](https://github.com/Mesbah-AI/medic-panda-backend.git)
 
 ---
 
@@ -159,7 +159,7 @@ medic-panda-frontend/src
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/Sujoy-Kumar-Das/medic-panda-frontend.git
+git clone https://github.com/Mesbah-AI/Medic-panda-frontend.git
 cd medic-panda-frontend
 ```
 
@@ -207,10 +207,8 @@ Visit the app at: http://localhost:3000
 
 ## 🙋‍♂️ Author
 
-**Sujoy Kumar Das**
+**Misbah**
 
 Frontend Developer | React Developer | MERN Stack Enthusiast
 
-- GitHub: [@Sujoy-Kumar-Das](https://github.com/Sujoy-Kumar-Das)
-- LinkedIn: [devsujoykumardas](https://dev-sujoy.vercel.app/)
-- Portfolio: [portfolio](https://dev-sujoy.vercel.app/)
+
